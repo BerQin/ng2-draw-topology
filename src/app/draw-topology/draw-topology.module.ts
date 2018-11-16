@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { DrawTopologyDirective } from './directive/draw-topology.directive';
+import { DrawTopologyComponent } from './draw-topology/draw-topology.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-    DrawTopologyDirective,
+    DrawTopologyComponent,
   ],
   exports: [
-    DrawTopologyDirective
+    DrawTopologyComponent,
   ]
 })
 
